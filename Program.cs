@@ -18,3 +18,18 @@ string[] NewArray(string[] array)
     }
     return str.Split(" ");
 }
+
+// start
+string[] arr1 = AddArray();
+Console.WriteLine("Исходный массив :");
+foreach (string st in arr1)
+{
+    Console.Write($"{st}\t");
+}
+Console.WriteLine("");
+string[] arr2 = NewArray(arr1);
+Console.WriteLine("Новый массив :");
+foreach (string st in arr2)
+{
+    Console.Write($"{st}\t");
+}
