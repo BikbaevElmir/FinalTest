@@ -1,2 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿string[] AddArray()
+{
+    Console.WriteLine("Введите символы строк массива разделяя пробелами");
+    string str = Console.ReadLine();
+    string[] narray = str.Split(" ");
+    return narray;
+}
